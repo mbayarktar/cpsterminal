@@ -9,6 +9,7 @@ namespace Crud.Controllers
     [ApiController]
     public class CwUsersController(DataContext dataContexta) : Controller
     {
+        //git test
         private readonly DataContext dataContext = dataContexta;
 
         //Tum kaydi getir
