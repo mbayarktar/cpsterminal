@@ -1,0 +1,16 @@
+@WebApi_HostAddress = http://localhost:5161
+
+GET {{WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###CwUsers - Get - Method
+GET {{WebApi_HostAddress}}/api/CwUsers/Get
+Accept: application/json
+
+###CwUsers - Get - Method
+GET {{WebApi_HostAddress}}/api/Cw000SevkFis/Get
+Accept: application/json
+
+###CwWarehouse - Get - Method
+GET {{WebApi_HostAddress}}/api/Cw000Warehouse/Get
+Accept: application/json
